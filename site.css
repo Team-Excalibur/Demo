@@ -1,0 +1,76 @@
+.auth-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.auth-main .auth_div {
+    width: 360px;
+    z-index: 999;
+}
+.vivify {
+    -webkit-animation-duration: .8s;
+    -webkit-animation-fill-mode: both;
+    animation-duration: .8s;
+    animation-fill-mode: both;
+}
+.popIn {
+    -webkit-animation-name: popIn;
+    animation-name: popIn;
+}
+.popIn {
+    -webkit-animation-name: popIn;
+    animation-name: popIn;
+}
+.vivify {
+    -webkit-animation-duration: .8s;
+    -webkit-animation-fill-mode: both;
+    animation-duration: .8s;
+    animation-fill-mode: both;
+}
+
+.auth-main .auth_div .card {
+    overflow: hidden;
+}
+.card {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
+    background: transparent;
+    border-color: transparent;
+    margin-bottom: 30px;
+    position: relative;
+    width: 100%;
+}
+
+.card .body {
+    background: #fff;
+    border: 1px solid #e1e8ed;
+    color: #17191c;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-weight: 400;
+    padding: 22px;
+    border-top: 1px solid rgba(255,255,255,0.09);
+}
+
+.auth-main .lead {
+    font-size: 20px;
+    color: #a5a8ad;
+}
+
+.btn.btn-round {
+    border-radius: 50px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
